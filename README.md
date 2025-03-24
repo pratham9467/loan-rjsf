@@ -1,12 +1,28 @@
-# React + Vite
+# Loan Application Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-step loan application form built with React and JSON Schema using the `@rjsf/core` library. This form includes custom widgets, conditional logic, and form validation.
 
-Currently, two official plugins are available:
+![Form Preview](https://via.placeholder.com/800x500?text=Loan+Application+Form+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Multi-step form wizard with progress tracking
+- Custom range slider widget with currency formatting
+- File upload widget for document submission
+- Conditional logic (skips additional info for good credit scores)
+- Form validation with AJV validator
+- Responsive design with Tailwind CSS styling
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- @rjsf/core (React JSON Schema Form)
+- @rjsf/validator-ajv8
+- JSON Schema
+- Tailwind CSS
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/loan-application-form.git
