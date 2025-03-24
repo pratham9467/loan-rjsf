@@ -26,3 +26,11 @@ A multi-step loan application form built with React and JSON Schema using the `@
 1. Clone the repository:
    ```bash
    git clone https://github.com/pratham9467/loan-rjsf.git
+
+   cd loan-application-form
+
+   npm install
+
+   npm run dev
+
+ Open http://localhost:3000 to view it in your browser.
