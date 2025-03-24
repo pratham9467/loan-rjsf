@@ -2,7 +2,7 @@
 
 A multi-step loan application form built with React and JSON Schema using the `@rjsf/core` library. This form includes custom widgets, conditional logic, and form validation.
 
-![Form Preview](https://loan-rjsf.vercel.app/)
+![Form Preview]([https://loan-rjsf.vercel.app/](https://placehold.co/600x400/000000/FFF))
 
 ## Features
 
